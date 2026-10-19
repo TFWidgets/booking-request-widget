@@ -1,0 +1,51 @@
+{
+ "active": true,
+ "domains": [
+  "tf-widgets.com",
+  "*.tf-widgets.com"
+ ],
+ "widget": "booking",
+ "mode": "form",
+ "display": "inline",
+ "preset": "services",
+ "lang": "en",
+ "services": [
+  {
+   "name": "Haircut",
+   "duration": 45,
+   "price": "€35"
+  },
+  {
+   "name": "Colouring",
+   "duration": 90,
+   "price": "€70"
+  },
+  {
+   "name": "Manicure",
+   "duration": 60,
+   "price": "€30"
+  }
+ ],
+ "staff": [
+  "Anna",
+  "Mark"
+ ],
+ "schedule": {
+  "days": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "open": "09:00",
+  "close": "18:00",
+  "step": 30,
+  "notice": 2,
+  "ahead": 60,
+  "closed": []
+ },
+ "timezone": "Europe/London",
+ "note": "We usually reply within 2 hours."
+}
